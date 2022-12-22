@@ -10,12 +10,13 @@ body {
     background-color: #fff
 }
 
-.hero-parallax {
-    background-image: url("../assets/img/property/hero-parallax-background-2.png");
+.heading {
+    background-image: url(../assets/img/header-background.webp);
     min-height: 975px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 40%;
+    opacity: 75%;
 }
+
