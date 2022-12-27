@@ -10,17 +10,15 @@ body {
     background-color: #fff
 }
 
-/* .heading {
-    background-image: url(../assets/img/property/hero-parallax-background-2.png);
-    min-height: 975px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 75%;
-} */
+.navbar-brand {
+    margin-left: 5rem;
+}
 
-.heading-cursive {
+.navbar-nav {
+    margin-right: 5rem;
+}
+
+/* .heading-cursive {
     font-family: 'Shadows Into Light', cursive;
     font-size: 8rem;
     margin: 0;
@@ -30,5 +28,4 @@ body {
 .heading-sub {
     font-family: 'Encode Sans', sans-serif;
     font-size: 3rem;
-    
-}
+} */
