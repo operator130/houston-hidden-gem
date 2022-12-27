@@ -6,26 +6,38 @@
     /* font-family: 'Shadows Into Light', cursive; */
 }
 
-body {
+body, html {
     background-color: #fff
+    height: 100%;
 }
 
 .navbar-brand {
     margin-left: 5rem;
 }
 
+.nav-item {
+    margin: 0 0.5rem;
+}
+
+.nav-item .nav-link {
+    font-size: 1.2rem;
+}
+
 .navbar-nav {
     margin-right: 5rem;
 }
 
-/* .heading-cursive {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 8rem;
-    margin: 0;
-    padding: 0;
+.title-logo {
+    margin: 2rem;
+    width: 70%;
+    height: auto;
 }
 
-.heading-sub {
-    font-family: 'Encode Sans', sans-serif;
-    font-size: 3rem;
-} */
+.parallax-1 {
+    background-image: url("../assets/img/header-background.webp");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
