@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Encode Sans', sans-serif;
+    /* font-family: 'Shadows Into Light', cursive; */
 }
 
 body {
@@ -18,3 +20,11 @@ body {
     opacity: 75%;
 } */
 
+.heading-cursive {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 8rem;
+}
+
+.heading-sup {
+    text-align: center;
+}
