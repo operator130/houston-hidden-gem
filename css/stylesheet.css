@@ -23,8 +23,18 @@ body {
 .heading-cursive {
     font-family: 'Shadows Into Light', cursive;
     font-size: 8rem;
+    margin: 0;
+    padding: 0;
 }
 
 .heading-sup {
-    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-sub {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 3rem;
 }
