@@ -34,7 +34,7 @@ body, html {
 }
 
 .parallax-1 {
-    background-image: url("../assets/img/header-background.webp");
+    background-image: url("../assets/img/body-background-1.png");
     min-height: 550px;
     background-attachment: fixed;
     background-position: center;
@@ -42,8 +42,13 @@ body, html {
     background-size: cover;
 }
 
+.about-section {
+    height: 600px;
+    padding: 8rem 0;
+}
+
 .parallax-2 {
-    background-image: url("../assets/img/body-background-1.jpg");
+    background-image: url("../assets/img/body-background-2.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;

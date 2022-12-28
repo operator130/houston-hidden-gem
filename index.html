@@ -35,13 +35,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Location</a>
+                        <a class="nav-link" href="#location">Location</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,11 +57,6 @@
                         </ul>
                     </li>
                 </ul>
-                <!-- DISABLED search bar -->
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
@@ -78,23 +73,46 @@
     <div class="parallax-1"></div>
 
 
-    <div class="container text-center mt-5 mb-5">
-        <div class="row align-items-center">
-            <div class="col align-self-start">
+    <!-- about section -->
+    <div id="about" class="container about-section text-center mt-5 mb-5">
+        <div class="row row-cols-2">
+            <div class="col align-self-center">
                 <h3>Cute, Cozy, and Conveniently Located</h3>
                 <br>
                 The Hidden Gem is a vintage charm in the heart of Downtown Houston. This special place is close to everything, making it
                 easy to plan your visit. It sits across the street from the Toyota Center, walking distance to the George R. Brown
                 Convention Center and a 5 minute commute to Dynamo & Minute Maid Stadium. Bars & restaurant options are only footsteps
                 away. Make your Houston getaway a trip to remember!
-
+            </div>
+            <div id="carouselInterior" class="col align-self-center carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/property/livingroom-1.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="assets/img/property/bedroom-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/property/livingroom-3.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/property/livingroom-3.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselInterior" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselInterior" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
 
-
+    <!-- parallax-2 -->
     <div class="parallax-2"></div>
-
 
 
     <!-- bootstrap JS CDN -->
