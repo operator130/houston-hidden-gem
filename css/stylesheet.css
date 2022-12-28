@@ -58,3 +58,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.location-section {
+    min-height: 100vh;
+    padding: 4.5rem 0;
+}

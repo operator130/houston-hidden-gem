@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/operator130/houston-hidden-gem/issues"
   },
-  "homepage": "https://github.com/operator130/houston-hidden-gem#readme"
+  "homepage": "https://github.com/operator130/houston-hidden-gem#readme",
+  "dependencies": {
+    "mapbox-gl": "^2.11.1"
+  }
 }
