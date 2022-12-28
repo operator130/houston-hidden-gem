@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Encode Sans', sans-serif;
     /* font-family: 'Shadows Into Light', cursive; */
+    /* overflow: hidden; */
 }
 
 body, html {
@@ -35,7 +36,8 @@ body, html {
 
 .parallax-1 {
     background-image: url("../assets/img/body-background-1.png");
-    min-height: 550px;
+    /* min-height: 550px; */
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,13 +45,14 @@ body, html {
 }
 
 .about-section {
-    height: 600px;
-    padding: 8rem 0;
+    min-height: 100vh;
+    padding: 2.5rem 0;
 }
 
 .parallax-2 {
     background-image: url("../assets/img/body-background-2.jpg");
-    min-height: 400px;
+    /* min-height: 400px; */
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
