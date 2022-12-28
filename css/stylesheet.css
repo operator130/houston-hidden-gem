@@ -37,7 +37,7 @@ body, html {
 .parallax-1 {
     background-image: url("../assets/img/body-background-1.png");
     /* min-height: 550px; */
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body, html {
 .parallax-2 {
     background-image: url("../assets/img/body-background-2.jpg");
     /* min-height: 400px; */
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
