@@ -88,8 +88,8 @@
                     away. Make your Houston getaway a trip to remember!
                 </div>
                 <img src="assets/img/property/livingroom-1.webp" alt="Livingroom sofa" class="w-100 shadow-1-strong rounded mt-3 mb-2">
-                <img src="assets/img/property/closet-1.webp" alt="Closet" class="w-100 shadow-1-strong rounded mt-2 mb-2">
-                <img src="assets/img/property/livingroom-3.webp" alt="Livingroom converted futon" class="w-100 shadow-1-strong rounded mt-2 mb-2">
+                <img src="assets/img/property/closet-1.webp" alt="Closet" class="w-100 shadow-1-strong rounded mb-2">
+                <img src="assets/img/property/livingroom-3.webp" alt="Livingroom converted futon" class="w-100 shadow-1-strong rounded mb-2">
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
@@ -131,6 +131,74 @@
 
     <!-- parallax-3 -->
     <div class="parallax-3"></div>
+
+
+    <!-- Contact Section-->
+    <div class="container mt-5 contact-section" id="contact">
+        <div class="row">
+            <div class="col-7">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-secondary mb-0"></h2>
+                <!-- Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-xl-9">
+                        <form action="https://formsubmit.co/jedavis89@yahoo.com" id="contactForm"
+                            data-sb-form-api-token="API_TOKEN" method="POST">
+                            <!-- Name input-->
+                            <div class="form-floating mb-1">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    data-sb-validations="required" />
+                                <label for="name">Name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-1">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                    data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Hidden subject field -->
+                            <input type="hidden" name="_subject" value="Portfolio Email Submission!">
+                            <!-- Message input-->
+                            <div class="form-floating mb-1">
+                                <textarea class="form-control" id="message" type="text"
+                                    placeholder="Enter your message here..." style="height: 10rem"
+                                    data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                                </div>
+                            </div>
+                            <!-- Submit success message-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-1">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-1">Error sending message!</div>
+                            </div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Footer-->
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Bo Bartolome &copy;2022</small></div>
+    </div>
 
 
     <script src="javascript/scripts.js"></script>

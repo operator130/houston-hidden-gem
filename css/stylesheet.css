@@ -67,9 +67,14 @@ body, html {
 .parallax-3 {
     background-image: url("../assets/img/body-background-3.png");
     /* min-height: 400px; */
-    height: 70vh;
+    height: 50vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.contact-section {
+    min-height: 100vh;
+    padding: 4.5rem 0;
 }
