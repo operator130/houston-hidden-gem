@@ -11,7 +11,7 @@ body, html {
 }
 
 .navbar-brand {
-    margin-left: 4rem;
+    margin-left: 3.5rem;
 }
 
 .nav-item {
@@ -23,7 +23,11 @@ body, html {
 }
 
 .navbar-nav {
-    margin-right: 4rem;
+    margin-right: 3.5rem;
+}
+
+.dropdown {
+    margin-left: 3rem;
 }
 
 .title-logo {
@@ -107,9 +111,17 @@ body, html {
 }
 
 .contact-section {
-    min-height: 85vh;
+    min-height: 90vh;
     padding: 5rem 0;
 }
+
+.accordion-body {
+    margin-left: 2rem;
+}
+
+/* .accordion-item:active .accordion-header:active{
+    color: grey;
+} */
 
 .profile-picture {
     max-width: 100%;
