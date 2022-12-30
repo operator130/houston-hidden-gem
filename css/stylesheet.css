@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Encode Sans', sans-serif;
-    /* font-family: 'Shadows Into Light', cursive; */
-    /* overflow: hidden; */
 }
 
 body, html {
@@ -36,7 +34,6 @@ body, html {
 
 .parallax-1 {
     background-image: url("../assets/img/body-background-1.png");
-    /* min-height: 550px; */
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -88,7 +85,6 @@ body, html {
 
 .parallax-2 {
     background-image: url("../assets/img/body-background-2.jpg");
-    /* min-height: 400px; */
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
@@ -103,7 +99,6 @@ body, html {
 
 .parallax-3 {
     background-image: url("../assets/img/body-background-3.png");
-    /* min-height: 400px; */
     height: 50vh;
     background-attachment: fixed;
     background-position: center;

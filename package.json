@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/operator130/houston-hidden-gem#readme",
   "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.14.0",
     "mapbox-gl": "^2.11.1"
   }
 }
