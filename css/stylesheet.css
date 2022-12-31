@@ -110,6 +110,13 @@ body, html {
     background-size: cover;
 }
 
+.parallax-3 .card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .contact-section {
     min-height: 90vh;
     padding: 5rem 0;
