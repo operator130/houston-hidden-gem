@@ -103,7 +103,7 @@ body, html {
 
 .parallax-3 {
     background-image: url("../assets/img/body-background-3.png");
-    height: 50vh;
+    height: 45vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,10 +111,11 @@ body, html {
 }
 
 .parallax-3 .card {
-    margin-top: 2rem;
+    /* margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem; */
+    opacity: 80%;
 }
 
 .contact-section {
