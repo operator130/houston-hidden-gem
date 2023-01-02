@@ -13,6 +13,11 @@
         @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400&family=Shadows+Into+Light&display=swap');
     </style>
 
+    <!-- mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
     <!-- bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -207,15 +212,27 @@
     <!-- location section -->
     <div id="location" class="container location-section text-center">
         <div class="row">
-            <div class="col align-self-end">
+            <div class="mb-4">
                 <h2>Conveniently Located</h2>
                 <br>
                 The Hidden Gem is a vintage charm in the heart of Downtown Houston. This special place is close to everything, making it
                 easy to plan your visit. It sits across the street from the Toyota Center, walking distance to the George R. Brown
                 Convention Center and a 5 minute commute to Dynamo & Minute Maid Stadium. Bars & restaurant options are only footsteps
-                away. Whether you're here for leisure or business, everything Houston has to offer is right at your doorstep.
+                away. Whether you're here for leisure or business, everything Houston has to offer is right at your doorstep. <br>
             </div>
-            <div class="locationMap"></div>
+            <div id='map' style='width: 925px; height: 450px;'></div>
+                <script>
+                    mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlcmF0b3IxMzAiLCJhIjoiY2w4azVnZTkxMGRpaTNubDV6a3Awc2UwZCJ9.RCz59oAMzDsnJOIsV60jqQ';
+                    var map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/mapbox/streets-v12',
+                        center: [-95.36442456541832, 29.751376369434055],
+                        zoom: 15
+                    });
+
+                    map.addControl(new mapboxgl.NavigationControl());
+            </script>
+
         </div>
     </div>
 
