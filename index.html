@@ -220,19 +220,88 @@
                 Convention Center and a 5 minute commute to Dynamo & Minute Maid Stadium. Bars & restaurant options are only footsteps
                 away. Whether you're here for leisure or business, everything Houston has to offer is right at your doorstep. <br>
             </div>
-            <div id='map' style='width: 925px; height: 450px;'></div>
-                <script>
-                    mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlcmF0b3IxMzAiLCJhIjoiY2w4azVnZTkxMGRpaTNubDV6a3Awc2UwZCJ9.RCz59oAMzDsnJOIsV60jqQ';
-                    var map = new mapboxgl.Map({
-                        container: 'map',
-                        style: 'mapbox://styles/mapbox/streets-v12',
-                        center: [-95.36442456541832, 29.751376369434055],
-                        zoom: 15
-                    });
 
-                    map.addControl(new mapboxgl.NavigationControl());
-            </script>
+            <div class="container location-map justify-content-center">
+                <div id='map'></div>
+                    <script>
+                        mapboxgl.accessToken = 'pk.eyJ1Ijoib3BlcmF0b3IxMzAiLCJhIjoiY2w4azVnZTkxMGRpaTNubDV6a3Awc2UwZCJ9.RCz59oAMzDsnJOIsV60jqQ';
+                        const map = new mapboxgl.Map({
+                            container: 'map',
+                            style: 'mapbox://styles/mapbox/streets-v12',
+                            center: [-95.36442456541832, 29.751376369434055],
+                            zoom: 15
+                        });
 
+                        // map.on('load', () => {
+                        //         map.addSource('places', {
+                        //             // This GeoJSON contains features that include an "icon"
+                        //             // property. The value of the "icon" property corresponds
+                        //             // to an image in the Mapbox Streets style's sprite.
+                        //             'type': 'geojson',
+                        //             'data': {
+                        //                 'type': 'FeatureCollection',
+                        //                 'features': [
+                        //                     {
+                        //                         'type': 'Feature',
+                        //                         'properties': {
+                        //                             'description':
+                        //                                 '<strong>Plaza Peacock Apartments</strong><p>You are here!</p>',
+                        //                             'icon': 'star'
+                        //                         },
+                        //                         'geometry': {
+                        //                             'type': 'Point',
+                        //                             'coordinates': [-95.36442456541832, 29.751376369434055]
+                        //                         }
+                        //                     }
+                        //             }
+                        //         }
+                        // });
+
+                        // // Add a layer showing the places.
+                        // map.addLayer({
+                        //     'id': 'places',
+                        //     'type': 'symbol',
+                        //     'source': 'places',
+                        //     'layout': {
+                        //         'icon-image': ['get', 'icon'],
+                        //         'icon-allow-overlap': true
+                        //     }
+                        // });
+
+
+                        // // When a click event occurs on a feature in the places layer, open a popup at the
+                        // // location of the feature, with description HTML from its properties.
+                        // map.on('click', 'places', (e) => {
+                        //     // Copy coordinates array.
+                        //     const coordinates = e.features[0].geometry.coordinates.slice();
+                        //     const description = e.features[0].properties.description;
+
+                        //     // Ensure that if the map is zoomed out such that multiple
+                        //     // copies of the feature are visible, the popup appears
+                        //     // over the copy being pointed to.
+                        //     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                        //         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                        //     }
+
+                        //     new mapboxgl.Popup()
+                        //         .setLngLat(coordinates)
+                        //         .setHTML(description)
+                        //         .addTo(map);
+                        // });
+
+                        // // Change the cursor to a pointer when the mouse is over the places layer.
+                        // map.on('mouseenter', 'places', () => {
+                        //     map.getCanvas().style.cursor = 'pointer';
+                        // });
+
+                        // // Change it back to a pointer when it leaves.
+                        // map.on('mouseleave', 'places', () => {
+                        //     map.getCanvas().style.cursor = '';
+                        // });
+
+                        map.addControl(new mapboxgl.NavigationControl());
+                    </script>
+            </div>
         </div>
     </div>
 
@@ -244,24 +313,24 @@
             <div class="col-4 mt-5 mb-3">
                 <div class="card">
                     <div class="card-body">
-                            <p>"Nicely located place with everything you need. Ground floor, but away from the noise of the streets."</p>
-                            <footer class="blockquote-footer">Andree, Sept. 2022</footer>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 mt-5 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <p>"Excellent location, really convenient to the conference center and easy to get in and out from."</p>
-                        <footer class="blockquote-footer">Theo, Sept. 2022</footer>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 mt-5 mb-3">
-                <div class="card">
-                    <div class="card-body">
                         <p>"Nice location, 5min walk away from the tram that takes you anywhere you need to go in the city."</p>
                         <footer class="blockquote-footer">Arman, Nov. 2022</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p>"...we had a concert at the Toyota Center, literally was just crossing the street. Everything that you need is there."</p>
+                        <footer class="blockquote-footer">Lucero, Oct. 2022</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p>"Over all we had a great experience and no issues"</p>
+                        <footer class="blockquote-footer">Monica, Oct. 2022</footer>
                     </div>
                 </div>
             </div>
@@ -270,8 +339,8 @@
             <div class="col-4 mt-5">
                 <div class="card">
                     <div class="card-body">
-                        <p>"...we had a concert at the Toyota Center, literally was just crossing the street. Everything that you need is there."</p>
-                        <footer class="blockquote-footer">Lucero, Oct. 2022</footer>
+                        <p>"Nicely located place with everything you need. Ground floor, but away from the noise of the streets."</p>
+                        <footer class="blockquote-footer">Andree, Sept. 2022</footer>
                     </div>
                 </div>
             </div>
@@ -287,8 +356,8 @@
             <div class="col-4 mt-5">
                 <div class="card">
                     <div class="card-body">
-                        <p>"Over all we had a great experience and no issues"</p>
-                        <footer class="blockquote-footer">Monica, Oct. 2022</footer>
+                        <p>"Excellent location, really convenient to the conference center and easy to get in and out from."</p>
+                        <footer class="blockquote-footer">Theo, Sept. 2022</footer>
                     </div>
                 </div>
             </div>
@@ -493,11 +562,6 @@
 
 
     <script src="javascript/scripts.js"></script>
-
-    <!-- mapbox API -->
-    <script>
-    const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
-    </script>
 
     <!-- bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

@@ -101,6 +101,15 @@ body, html {
     padding: 4.5rem 3rem;
 }
 
+#map {
+    min-width: fit-content;
+    height: 475px;
+}
+
+.mapboxgl-popup {
+    max-width: 350px;
+}
+
 .parallax-3 {
     background-image: url("../assets/img/body-background-3.png");
     height: 45vh;
