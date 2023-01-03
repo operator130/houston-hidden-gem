@@ -1,0 +1,258 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Hidden Gem",
+        "description": "You are here!"
+      },
+      "geometry": {
+        "coordinates": [-95.36442456541832, 29.751376369434055],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Toyota Center",
+        "description": "Indoor arena"
+      },
+      "geometry": {
+        "coordinates": [-95.36210050163095, 29.750974619586877],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Minute Maid Park",
+        "description": "Astros' home ballpark"
+      },
+      "geometry": {
+        "coordinates": [-95.35549284395998, 29.757437035325683],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "George R. Brown Convention Center",
+        "description": "Convention center located on the east side of Downtown Houston."
+      },
+      "geometry": {
+        "coordinates": [-95.35851874902554, 29.752916814636272],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Discovery Green",
+        "description": "Park with live music, public art, restaurants, playground, pond for kayaking, and exercise classes."
+      },
+      "geometry": {
+        "coordinates": [-95.35985865745373, 29.75328675419747],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Heritage Society Museum at Sam Houston Park",
+        "description": "Museum offering guided tours of 19th-century structures and exhibits exploring the city's history."
+      },
+      "geometry": {
+        "coordinates": [-95.37136523367091, 29.76023705749507],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bayou Music Center",
+        "description": "Cozy performing arts center featuring nationally known musicians & comedians since 1997."
+      },
+      "geometry": {
+        "coordinates": [-95.36754747279534, 29.762481954121338],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Escape Hunt Houston",
+        "description": "Escape room center"
+      },
+      "geometry": {
+        "coordinates": [-95.37978873046632, 29.753320529046626],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bayou Place",
+        "description": "Shopping mall"
+      },
+      "geometry": {
+        "coordinates": [-95.36771933046619, 29.76276022158482],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Highlight at Houston Center",
+        "description": "Shopping mall with upscale & casual dining options, local businesses, plus gift & apparel stores."
+      },
+      "geometry": {
+        "coordinates": [-95.36209763046628, 29.755117924903963],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MKT Bar",
+        "description": "Easygoing pub in a market offering classic comfort fare, craft beer & cocktails, plus live music."
+      },
+      "geometry": {
+        "coordinates": [-95.36134557279541, 29.754752354154732],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "True Anomaly Brewing Company",
+        "description": "Local brewery"
+      },
+      "geometry": {
+        "coordinates": [-95.35716385930185, 29.749951136562093],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Around the Corner",
+        "description": "Warm, stylish coffee shop & cocktail lounge with a spacious patio & refined small bites."
+      },
+      "geometry": {
+        "coordinates": [-95.3581505034791, 29.746803872275937],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Dirt Bar",
+        "description": "Watering hole featuring gothic design, a hard rock playlist & occasional visits by famous rockers."
+      },
+      "geometry": {
+        "coordinates": [-95.36354524396005, 29.75382912791202],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Brasserie Du Parc",
+        "description": "Spacious industrial-chic cafe serving upscale French cuisine & crêpes, plus wine & craft cocktails."
+      },
+      "geometry": {
+        "coordinates": [-95.36146751697262, 29.754028012223667],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Underground Hall",
+        "description": "Casual food court featuring vendors doling out global bites, plus draft beer & happy-hour specials."
+      },
+      "geometry": {
+        "coordinates": [-95.36153865745364, 29.76058959903126],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pappasito's Cantina",
+        "description": "Tex-Mex dishes & margaritas are the stars at this chain with a festive look."
+      },
+      "geometry": {
+        "coordinates": [-95.36097722184456, 29.752316225661705],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pappadeaux Seafood Kitchen",
+        "description": "Cajun-style seafood, pastas & comfort fare served in a dark wood eatery with a full bar."
+      },
+      "geometry": {
+        "coordinates": [-95.3597345304664, 29.75092961683142],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Rustic",
+        "description": "American food restaurant featuring home style meals with a full bar and live music"
+      },
+      "geometry": {
+        "coordinates": [-95.3597248464281, 29.75058906276852],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mademoiselle Louise",
+        "description": "French bakery"
+      },
+      "geometry": {
+        "coordinates": [-95.36942284396007, 29.75122180438981],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Gypsy Poet",
+        "description": "Live poetry, open-mic sessions & patio dining at a popular hangout for artisanal wood-fired pizza."
+      },
+      "geometry": {
+        "coordinates": [-95.37046851835532, 29.74496307160463],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pappas Bros. Steakhouse",
+        "description": "Elegant, award-winning steakhouse serving dry-aged prime beef, seafood & exceptional wines."
+      },
+      "geometry": {
+        "coordinates": [-95.36312784852136, 29.75572813840276],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Strato 550",
+        "description": "Mediterranean-inspired food, superb wines, classic cocktails, and stellar views on the 43 stories above the downtown skyline"
+      },
+      "geometry": {
+        "coordinates": [-95.36995138813722, 29.754899168513308],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

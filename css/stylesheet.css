@@ -38,7 +38,7 @@ body, html {
 
 .parallax-1 {
     background-image: url("../assets/img/body-background-1.png");
-    height: 80vh;
+    height: 70vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,12 +98,12 @@ body, html {
 
 .location-section {
     min-height: 100vh;
-    padding: 4.5rem 3rem;
+    padding: 4.5rem 0;
 }
 
 #map {
     min-width: fit-content;
-    height: 475px;
+    height: 470px;
 }
 
 .mapboxgl-popup {
@@ -124,6 +124,8 @@ body, html {
     margin-bottom: 2rem;
     margin-left: 0rem;
     margin-right: 0rem; */
+    height: 160px;
+    width: auto;
     opacity: 80%;
 }
 
