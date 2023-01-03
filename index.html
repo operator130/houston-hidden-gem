@@ -233,6 +233,36 @@
                         });
 
                             map.addControl(new mapboxgl.NavigationControl());
+
+                            /* 
+                            Add an event listener that runs
+                            when a user clicks on the map element.
+                            */
+                            map.on('click', (event) => {
+                                // If the user clicked on one of your markers, get its information.
+                                const features = map.queryRenderedFeatures(event.point, {
+                                    layers: ['houston-poi', 'houston-hidden-gem'] // replace with your layer name
+                                });
+                                if (!features.length) {
+                                    return;
+                                }
+                                const feature = features[0];
+
+                                // Code from the next step will go here.
+
+                                 /* 
+                                Create a popup, specify its options 
+                                and properties, and add it to the map.
+                                */
+                                const popup = new mapboxgl.Popup({ offset: [0, -15] })
+                                    .setLngLat(feature.geometry.coordinates)
+                                    .setHTML(
+                                        `<h5>${feature.properties.title}</h5><p>${feature.properties.description}</p>`
+                                    )
+                                    .addTo(map);
+                            });
+
+                
     
                             // map.on('load', () => {
                             //     map.addSource('places', {
