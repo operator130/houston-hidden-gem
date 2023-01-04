@@ -4,3 +4,6 @@ node_modules
 views/.DS_Store
 public/.DS_Store
 uploads/.DS_Store
+assets/property
+assets/host
+assets/mapbox
