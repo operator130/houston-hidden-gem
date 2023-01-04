@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Brasserie Du Parc",
+        "description": "Spacious industrial-chic cafe serving upscale French cuisine & crêpes, plus wine & craft cocktails."
+      },
+      "geometry": {
+        "coordinates": [-95.36146751697262, 29.754028012223667],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Underground Hall",
+        "description": "Casual food court featuring vendors doling out global bites, plus draft beer & happy-hour specials."
+      },
+      "geometry": {
+        "coordinates": [-95.36153865745364, 29.76058959903126],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pappasito's Cantina",
+        "description": "Tex-Mex dishes & margaritas are the stars at this chain with a festive look."
+      },
+      "geometry": {
+        "coordinates": [-95.36097722184456, 29.752316225661705],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pappadeaux Seafood Kitchen",
+        "description": "Cajun-style seafood, pastas & comfort fare served in a dark wood eatery with a full bar."
+      },
+      "geometry": {
+        "coordinates": [-95.3597345304664, 29.75092961683142],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Rustic",
+        "description": "American food restaurant featuring home style meals with a full bar and live music"
+      },
+      "geometry": {
+        "coordinates": [-95.3597248464281, 29.75058906276852],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mademoiselle Louise",
+        "description": "French bakery"
+      },
+      "geometry": {
+        "coordinates": [-95.36942284396007, 29.75122180438981],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Gypsy Poet",
+        "description": "Live poetry, open-mic sessions & patio dining at a popular hangout for artisanal wood-fired pizza."
+      },
+      "geometry": {
+        "coordinates": [-95.37046851835532, 29.74496307160463],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Pappas Bros. Steakhouse",
+        "description": "Elegant, award-winning steakhouse serving dry-aged prime beef, seafood & exceptional wines."
+      },
+      "geometry": {
+        "coordinates": [-95.36312784852136, 29.75572813840276],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Strato 550",
+        "description": "Mediterranean-inspired food, superb wines, classic cocktails, and stellar views on the 43 stories above the downtown skyline"
+      },
+      "geometry": {
+        "coordinates": [-95.36995138813722, 29.754899168513308],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,16 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Hidden Gem",
+        "description": "You are here!"
+      },
+      "geometry": {
+        "coordinates": [-95.36442456541832, 29.751376369434055],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

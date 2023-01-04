@@ -1,0 +1,93 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Toyota Center",
+        "description": "Indoor arena"
+      },
+      "geometry": {
+        "coordinates": [-95.36210050163095, 29.750974619586877],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Minute Maid Park",
+        "description": "Astros' home ballpark"
+      },
+      "geometry": {
+        "coordinates": [-95.35549284395998, 29.757437035325683],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "George R. Brown Convention Center",
+        "description": "Convention center located on the east side of Downtown Houston."
+      },
+      "geometry": {
+        "coordinates": [-95.35851874902554, 29.752916814636272],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Discovery Green",
+        "description": "Park with live music, public art, restaurants, playground, pond for kayaking, and exercise classes."
+      },
+      "geometry": {
+        "coordinates": [-95.35985865745373, 29.75328675419747],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Heritage Society Museum at Sam Houston Park",
+        "description": "Museum offering guided tours of 19th-century structures and exhibits exploring the city's history."
+      },
+      "geometry": {
+        "coordinates": [-95.37136523367091, 29.76023705749507],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bayou Music Center",
+        "description": "Cozy performing arts center featuring nationally known musicians & comedians since 1997."
+      },
+      "geometry": {
+        "coordinates": [-95.36754747279534, 29.762481954121338],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Escape Hunt Houston",
+        "description": "Escape room center"
+      },
+      "geometry": {
+        "coordinates": [-95.37978873046632, 29.753320529046626],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bayou Place",
+        "description": "Shopping mall"
+      },
+      "geometry": {
+        "coordinates": [-95.36771933046619, 29.76276022158482],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

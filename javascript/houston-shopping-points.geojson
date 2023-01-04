@@ -1,0 +1,27 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bayou Place",
+        "description": "Shopping mall"
+      },
+      "geometry": {
+        "coordinates": [-95.36771933046619, 29.76276022158482],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Highlight at Houston Center",
+        "description": "Shopping mall with upscale & casual dining options, local businesses, plus gift & apparel stores."
+      },
+      "geometry": {
+        "coordinates": [-95.36209763046628, 29.755117924903963],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

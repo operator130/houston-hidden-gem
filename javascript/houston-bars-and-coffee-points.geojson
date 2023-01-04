@@ -1,0 +1,49 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "MKT Bar",
+        "description": "Easygoing pub in a market offering classic comfort fare, craft beer & cocktails, plus live music."
+      },
+      "geometry": {
+        "coordinates": [-95.36134557279541, 29.754752354154732],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "True Anomaly Brewing Company",
+        "description": "Local brewery"
+      },
+      "geometry": {
+        "coordinates": [-95.35716385930185, 29.749951136562093],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Around the Corner",
+        "description": "Warm, stylish coffee shop & cocktail lounge with a spacious patio & refined small bites."
+      },
+      "geometry": {
+        "coordinates": [-95.3581505034791, 29.746803872275937],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Dirt Bar",
+        "description": "Watering hole featuring gothic design, a hard rock playlist & occasional visits by famous rockers."
+      },
+      "geometry": {
+        "coordinates": [-95.36354524396005, 29.75382912791202],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
