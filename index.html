@@ -17,6 +17,8 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
 
+    <!-- CSS animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -83,7 +85,7 @@
 
     <!-- about section -->
     <div id="about" class="container about-section text-center">
-        <div class="row">
+        <div class="row g-2">
             <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
                 <div class="rounded">
                     <h2>Cute & Cozy</h2>
@@ -229,7 +231,7 @@
                             container: 'map',
                             style: 'mapbox://styles/operator130/clcgg8a0h00fs14oxqgrqqb7o',
                             center: [-95.36442456541832, 29.751376369434055],
-                            zoom: 14.3
+                            zoom: 14.8
                         });
 
                             map.addControl(new mapboxgl.NavigationControl());
@@ -241,7 +243,7 @@
                             map.on('click', (event) => {
                                 // If the user clicked on one of your markers, get its information.
                                 const features = map.queryRenderedFeatures(event.point, {
-                                    layers: ['houston-poi', 'houston-hidden-gem'] // replace with your layer name
+                                    layers: ['houston-hidden-gem', 'houston-points-of-interest', 'houston-shopping-points', 'houston-bars-and-coffee-points', 'houston-restaurant-points'] // replace with your layer name
                                 });
                                 if (!features.length) {
                                     return;
@@ -597,8 +599,8 @@
     <!-- parallax-3 -->
     <div class="parallax-3">
         <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-4 mt-5 mb-3">
+        <div class="row g-4">
+            <div class="col-4">
                 <div class="card">
                     <div class="card-body">
                         <p>"Nice location, 5min walk away from the tram that takes you anywhere you need to go in the city."</p>
@@ -606,7 +608,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-5 mb-3">
+            <div class="col-4">
                 <div class="card">
                     <div class="card-body">
                         <p>"...we had a concert at the Toyota Center, literally was just crossing the street. Everything that you need is there."</p>
@@ -614,17 +616,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-5 mb-3">
+            <div class="col-4">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body justify-content-center">
                         <p>"Over all we had a great experience and no issues"</p>
                         <footer class="blockquote-footer">Monica, Oct. 2022</footer>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-4 mt-5">
+        <br>
+        <div class="row g-4">
+            <div class="col-4">
                 <div class="card">
                     <div class="card-body">
                         <p>"Nicely located place with everything you need. Ground floor, but away from the noise of the streets."</p>
@@ -632,7 +635,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-5">
+            <div class="col-4">
                 <div class="card">
                     <div class="card-body">
                         <p>"...The location was also awesome! Only
@@ -641,7 +644,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-5">
+            <div class="col-4">
                 <div class="card">
                     <div class="card-body">
                         <p>"Excellent location, really convenient to the conference center and easy to get in and out from."</p>

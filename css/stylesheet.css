@@ -112,7 +112,7 @@ body, html {
 
 .parallax-3 {
     background-image: url("../assets/body-background-3.jpg");
-    height: 45vh;
+    height: 50vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,9 +124,10 @@ body, html {
     margin-bottom: 2rem;
     margin-left: 0rem;
     margin-right: 0rem; */
-    height: 160px;
+    height: 150px;
     width: auto;
     opacity: 80%;
+    justify-items: center;
 }
 
 .contact-section {
