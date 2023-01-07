@@ -91,8 +91,8 @@
                     <h2>Cute & Cozy</h2>
                     <br>
                     The Hidden Gem is a vintage charm in the heart of Downtown Houston. Originally established in
-                    the 1920's, the apartment reflects an eclectic style reminiscent of Houston's building boom. Inside, guests will find a newly
-                    designed interior with amenities that accomodates today's traveler. Chic, stylish, and refined--Make your Houston getaway a trip to remember at The Hidden Gem!
+                    the 1920's, the apartment reflects an eclectic style reminiscent of Houston's building boom. Inside, guests will find a modernized 
+                    interior with amenities that accomodates today's traveler. Chic, stylish, and refined--Make your Houston getaway a trip to remember at The Hidden Gem!
                 </div>
                 <div class="about-container">
                     <img src="assets/livingroom-1.webp" alt="Living Room sofa" class="about-image w-100 shadow-1-strong rounded mt-3 mb-2">
@@ -258,7 +258,7 @@
                                 const popup = new mapboxgl.Popup({ offset: [0, -15] })
                                     .setLngLat(feature.geometry.coordinates)
                                     .setHTML(
-                                        `<h5>${feature.properties.title}</h5><p>${feature.properties.description}</p>`
+                                        `<h5><a href="${feature.properties.link}">${feature.properties.title}</a></h5><p>${feature.properties.description}</p>`
                                     )
                                     .addTo(map);
                             });
