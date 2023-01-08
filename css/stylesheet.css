@@ -130,6 +130,18 @@ body, html {
     justify-items: center;
 }
 
+@media (max-width: 992px) {
+    .parallax-3 .card {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .parallax-3 .card {
+        display: none;
+    }
+}
+
 .contact-section {
     min-height: 90vh;
     padding: 5rem 0;
