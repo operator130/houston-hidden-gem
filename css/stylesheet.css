@@ -103,7 +103,7 @@ body, html {
 
 #map {
     min-width: fit-content;
-    height: 600px;
+    height: 685px;
 }
 
 .mapboxgl-popup {
