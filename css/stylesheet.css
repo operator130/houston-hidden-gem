@@ -26,9 +26,9 @@ body, html {
     margin-right: 3.5rem;
 }
 
-.dropdown {
+/* .dropdown {
     margin-left: 3rem;
-}
+} */
 
 .title-logo {
     margin: 2rem;
@@ -98,7 +98,7 @@ body, html {
 
 .location-section {
     min-height: 100vh;
-    padding: 4.5rem 0;
+    padding: 3.5rem 0;
 }
 
 #map {
