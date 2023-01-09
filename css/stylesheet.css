@@ -124,13 +124,13 @@ body, html {
     margin-bottom: 2rem;
     margin-left: 0rem;
     margin-right: 0rem; */
-    height: 150px;
+    height: 250px;
     width: auto;
     opacity: 80%;
-    justify-items: center;
+    font-size: 1.2rem;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .parallax-3 .card {
         font-size: 0.8rem;
     }
@@ -140,7 +140,7 @@ body, html {
     .parallax-3 .card {
         display: none;
     }
-}
+} */
 
 .contact-section {
     min-height: 90vh;
