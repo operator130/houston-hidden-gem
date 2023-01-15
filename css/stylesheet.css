@@ -49,12 +49,12 @@ body, html {
 
 .about-section {
     min-height: 100vh;
-    padding: 4.5rem 0;
+    padding: 3.5rem 0;
 }
 
 @media (max-width: 992px) {
     .about-section {
-        padding-top: 1.5rem;
+        padding: 2rem 0;
     }
 }
 
@@ -109,6 +109,12 @@ body, html {
     padding: 3.5rem 0;
 }
 
+@media (max-width: 992px) {
+    .location-section {
+        padding: 2rem 0;
+    }
+}
+
 #map {
     min-width: fit-content;
     height: 685px;
@@ -157,6 +163,12 @@ body, html {
     padding: 5rem 0;
 }
 
+@media (max-width: 992px) {
+    .location-section {
+        padding: 2rem 0;
+    }
+}
+
 .accordion-body {
     margin-left: 2rem;
 }
@@ -181,14 +193,14 @@ body, html {
 
 @media (max-width: 767px) {
     .parallax-1 {
-        background-position: scroll;
+        background-attachment: scroll;
     }
 
     .parallax-2 {
-        background-position: scroll;
+        background-attachment: scroll;
     }
 
     .parallax-3 {
-        background-position: scroll;
+        background-attachment: scroll;
     }
 }
