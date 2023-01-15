@@ -26,9 +26,11 @@ body, html {
     margin-right: 3.5rem;
 }
 
-/* .dropdown {
-    margin-left: 3rem;
-} */
+@media (max-width: 992px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
+}
 
 .title-logo {
     margin: 2rem;
@@ -48,6 +50,12 @@ body, html {
 .about-section {
     min-height: 100vh;
     padding: 4.5rem 0;
+}
+
+@media (max-width: 992px) {
+    .about-section {
+        padding-top: 1.5rem;
+    }
 }
 
 .about-container {
@@ -136,17 +144,13 @@ body, html {
     font-size: 1.2rem;
 }
 
-/* @media (max-width: 992px) {
-    .parallax-3 .card {
-        font-size: 0.8rem;
-    }
-}
-
 @media (max-width: 767px) {
     .parallax-3 .card {
-        display: none;
+        height: auto;
+        width: auto;
+        font-size: 1rem;
     }
-} */
+}
 
 .contact-section {
     min-height: 90vh;
@@ -173,4 +177,18 @@ body, html {
 
 .copyright {
   background-color: #000;
+}
+
+@media (max-width: 767px) {
+    .parallax-1 {
+        background-position: scroll;
+    }
+
+    .parallax-2 {
+        background-position: scroll;
+    }
+
+    .parallax-3 {
+        background-position: scroll;
+    }
 }
