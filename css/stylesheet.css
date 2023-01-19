@@ -191,6 +191,20 @@ body, html {
   background-color: #000;
 }
 
+@media (max-width: 992px) {
+    .parallax-1 {
+        background-attachment: scroll;
+    }
+
+    .parallax-2 {
+        background-attachment: scroll;
+    }
+
+    .parallax-3 {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 767px) {
     .parallax-1 {
         background-attachment: scroll;
