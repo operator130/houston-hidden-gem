@@ -39,7 +39,7 @@ body, html {
 }
 
 .parallax-1 {
-    background-image: url("../assets/body-background-entrance.jpg");
+    background-image: url("../assets/body-background-entrance.webp");
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
@@ -96,7 +96,7 @@ body, html {
 }
 
 .parallax-2 {
-    background-image: url("../assets/body-background-2.jpg");
+    background-image: url("../assets/body-background-2.webp");
     height: 50vh;
     background-attachment: fixed;
     background-position: center;
@@ -131,7 +131,7 @@ body, html {
 }
 
 .parallax-3 {
-    background-image: url("../assets/body-background-3.jpg");
+    background-image: url("../assets/body-background-3.webp");
     height: 50vh;
     background-attachment: fixed;
     background-position: center;
