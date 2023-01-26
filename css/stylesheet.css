@@ -12,6 +12,8 @@ body, html {
 
 .navbar-brand {
     margin-left: 3.5rem;
+    width: 64px;
+    height: auto;
 }
 
 .nav-item {
@@ -179,6 +181,10 @@ body, html {
 
 .profile-picture {
     max-width: 100%;
+}
+
+.card-title {
+    font-size: 1.7rem;
 }
 
 .footer {
